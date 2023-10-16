@@ -5,6 +5,7 @@ import 'package:noted/views/screens/login_screen.dart';
 import 'package:noted/views/screens/theme_selector_screen.dart';
 import 'package:noted/views/widgets/settings_tile.dart';
 
+import '../../config/consts.dart';
 import '../../models/auth.dart';
 import 'archive_screen.dart';
 
@@ -30,7 +31,7 @@ class SettingsScreen extends StatelessWidget {
         ],
       ),
       body: ListView(
-        // padding: paddingAll,
+        padding: paddingAll,
         children: [
           SettingsTile(
             onTap: () => context.push(
