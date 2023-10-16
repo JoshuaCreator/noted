@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_firebase/models/note_model.dart';
-import 'package:riverpod_firebase/providers/firestore_provider.dart';
-import 'package:riverpod_firebase/views/widgets/quick_note_tile.dart';
+import 'package:noted/models/note_model.dart';
+import 'package:noted/providers/firestore_provider.dart';
+import 'package:noted/views/widgets/quick_note_tile.dart';
 
 import '../../config/consts.dart';
 import '../widgets/bottom_sheet/details_widget.dart';

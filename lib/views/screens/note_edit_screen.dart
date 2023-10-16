@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/models/study_note_db.dart';
-import 'package:riverpod_firebase/models/note_model.dart';
-import 'package:riverpod_firebase/views/widgets/my_button.dart';
-import 'package:riverpod_firebase/views/widgets/my_text_field.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/models/study_note_db.dart';
+import 'package:noted/models/note_model.dart';
+import 'package:noted/views/widgets/my_button.dart';
+import 'package:noted/views/widgets/my_text_field.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../widgets/dialogue.dart';

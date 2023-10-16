@@ -56,40 +56,6 @@ final archivedNotesDataProvider = StreamProvider.autoDispose(
   },
 );
 
-//? *************** Get Trashed Quick Notes ***************//
-final quickNotesTrashDataProvider = StreamProvider.autoDispose(
-  (ref) {
-    final userStream = ref.watch(authStateProvider);
-    final firestore = ref.watch(firestoreProvider);
-
-    var user = userStream.value;
-
-    var docRef = firestore
-        .collection('users')
-        .doc(user?.uid)
-        .collection('quick_notes_trash')
-        .orderBy('createdAt', descending: true);
-    return docRef.snapshots().map((doc) => doc.docs);
-  },
-);
-
-//? *************** Get Trashed Study Notes ***************//
-final studyNotesTrashDataProvider = StreamProvider.autoDispose(
-  (ref) {
-    final userStream = ref.watch(authStateProvider);
-    final firestore = ref.watch(firestoreProvider);
-
-    var user = userStream.value;
-
-    var docRef = firestore
-        .collection('users')
-        .doc(user?.uid)
-        .collection('study_notes_trash')
-        .orderBy('createdAt', descending: true);
-    return docRef.snapshots().map((doc) => doc.docs);
-  },
-);
-
 final firestoreProvider = Provider<FirebaseFirestore>((ref) {
   return FirebaseFirestore.instance;
 });

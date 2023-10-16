@@ -3,10 +3,10 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/models/auth.dart';
-import 'package:riverpod_firebase/views/widgets/b_nav_bar.dart';
-import 'package:riverpod_firebase/views/widgets/my_text_button.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/models/auth.dart';
+import 'package:noted/views/widgets/b_nav_bar.dart';
+import 'package:noted/views/widgets/my_text_button.dart';
 
 class VerifyEmailScreen extends StatefulWidget {
   static String path = '/verify-email';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/config/my_colours.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/config/my_colours.dart';
 
 showSnackBar(BuildContext context, {required String msg}) {
   final SnackBar snackBar = SnackBar(

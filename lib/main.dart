@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_firebase/providers/theme_provider.dart';
-import 'package:riverpod_firebase/utils/theme.dart';
+import 'package:noted/providers/theme_provider.dart';
+import 'package:noted/utils/theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'config/sizes.dart';

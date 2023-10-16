@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/views/widgets/my_text_button.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/views/widgets/my_text_button.dart';
 
 Future<bool?> showDialogue(
   BuildContext context, {

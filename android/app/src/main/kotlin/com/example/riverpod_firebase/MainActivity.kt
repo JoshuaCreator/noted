@@ -1,4 +1,4 @@
-package com.example.riverpod_firebase
+package com.example.noted
 
 import io.flutter.embedding.android.FlutterActivity
 

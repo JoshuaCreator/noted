@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_firebase/config/sizes.dart';
+import 'package:noted/config/sizes.dart';
 
 double size = Sizes.defaultSize!;
 

@@ -2,8 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/models/note_model.dart';
-import 'package:riverpod_firebase/views/widgets/loading_indicator.dart';
+import 'package:noted/models/note_model.dart';
+import 'package:noted/views/widgets/loading_indicator.dart';
 
 import '../views/widgets/snack_bar.dart';
 
@@ -101,5 +101,4 @@ class QuickNoteDB {
       return Future.error(e);
     }
   }
-
 }

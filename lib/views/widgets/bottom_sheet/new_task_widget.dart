@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_firebase/models/quick_note_db.dart';
-import 'package:riverpod_firebase/models/note_model.dart';
-import 'package:riverpod_firebase/views/widgets/my_button.dart';
-import 'package:riverpod_firebase/views/widgets/my_text_field.dart';
-import 'package:riverpod_firebase/views/widgets/reminder_tile.dart';
+import 'package:noted/models/quick_note_db.dart';
+import 'package:noted/models/note_model.dart';
+import 'package:noted/views/widgets/my_button.dart';
+import 'package:noted/views/widgets/my_text_field.dart';
+import 'package:noted/views/widgets/reminder_tile.dart';
 
 import '../../../config/consts.dart';
 

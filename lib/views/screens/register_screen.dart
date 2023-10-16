@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/models/auth.dart';
-import 'package:riverpod_firebase/views/screens/login_screen.dart';
-import 'package:riverpod_firebase/views/widgets/my_button.dart';
-import 'package:riverpod_firebase/views/widgets/my_text_button.dart';
-import 'package:riverpod_firebase/views/widgets/my_text_field.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/models/auth.dart';
+import 'package:noted/views/screens/login_screen.dart';
+import 'package:noted/views/widgets/my_button.dart';
+import 'package:noted/views/widgets/my_text_button.dart';
+import 'package:noted/views/widgets/my_text_field.dart';
 
 import '../../config/my_colours.dart';
 

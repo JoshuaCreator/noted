@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/models/quick_note_db.dart';
-import 'package:riverpod_firebase/views/widgets/dialogue.dart';
+import 'package:noted/models/quick_note_db.dart';
+import 'package:noted/views/widgets/dialogue.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../../../config/consts.dart';
@@ -85,7 +85,7 @@ class DetailsWidget extends StatelessWidget {
                   title: 'Delete quick note',
                   content:
                       'Do you want to delete this note? This cannot be undone.',
-                      proceedTxt: 'Delete',
+                  proceedTxt: 'Delete',
                   onProceed: () {
                     context.pop();
                     QuickNoteDB().delete(id, context);

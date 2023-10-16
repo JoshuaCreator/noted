@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_firebase/views/screens/note_edit_screen.dart';
+import 'package:noted/views/screens/note_edit_screen.dart';
 
 import 'bottom_sheet/new_task_widget.dart';
 

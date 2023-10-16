@@ -1,17 +1,17 @@
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/models/note_model.dart';
-import 'package:riverpod_firebase/views/screens/archive_screen.dart';
-import 'package:riverpod_firebase/views/screens/auth_checker.dart';
-import 'package:riverpod_firebase/views/screens/settings_screen.dart';
-import 'package:riverpod_firebase/views/screens/quick_note_screen.dart';
-import 'package:riverpod_firebase/views/screens/login_screen.dart';
-import 'package:riverpod_firebase/views/screens/note_edit_screen.dart';
-import 'package:riverpod_firebase/views/screens/study_note_screen.dart';
-import 'package:riverpod_firebase/views/screens/password_reset_screen.dart';
-import 'package:riverpod_firebase/views/screens/register_screen.dart';
-import 'package:riverpod_firebase/views/screens/theme_selector_screen.dart';
-import 'package:riverpod_firebase/views/screens/verify_email_screen.dart';
-import 'package:riverpod_firebase/views/widgets/b_nav_bar.dart';
+import 'package:noted/models/note_model.dart';
+import 'package:noted/views/screens/archive_screen.dart';
+import 'package:noted/views/screens/auth_checker.dart';
+import 'package:noted/views/screens/settings_screen.dart';
+import 'package:noted/views/screens/quick_note_screen.dart';
+import 'package:noted/views/screens/login_screen.dart';
+import 'package:noted/views/screens/note_edit_screen.dart';
+import 'package:noted/views/screens/study_note_screen.dart';
+import 'package:noted/views/screens/password_reset_screen.dart';
+import 'package:noted/views/screens/register_screen.dart';
+import 'package:noted/views/screens/theme_selector_screen.dart';
+import 'package:noted/views/screens/verify_email_screen.dart';
+import 'package:noted/views/widgets/b_nav_bar.dart';
 
 GoRouter goRouter = GoRouter(
   initialLocation: AuthChecker.path,

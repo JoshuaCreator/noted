@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/config/my_colours.dart';
-import 'package:riverpod_firebase/views/screens/settings_screen.dart';
-import 'package:riverpod_firebase/views/screens/quick_note_screen.dart';
-import 'package:riverpod_firebase/views/screens/study_note_screen.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/config/my_colours.dart';
+import 'package:noted/views/screens/settings_screen.dart';
+import 'package:noted/views/screens/quick_note_screen.dart';
+import 'package:noted/views/screens/study_note_screen.dart';
 import 'fab.dart';
 
 class BNavBar extends ConsumerStatefulWidget {

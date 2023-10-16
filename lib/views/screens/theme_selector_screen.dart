@@ -1,9 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:get/get.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/config/my_colours.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/config/my_colours.dart';
 
 import '../../providers/theme_provider.dart';
 
@@ -11,6 +10,11 @@ class ThemeSelectorScreen extends ConsumerWidget {
   static String path = 'theme-selector';
   const ThemeSelectorScreen({super.key});
 
+// extension StringExtension on String {
+//     String capitalize() {
+//       return '${this[0].toUpperCase()}${this.substring(1).toLowerCase()}';
+//     }
+//   }
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final themeSelector = ref.watch(themeSelectorProvider.notifier);
@@ -32,7 +36,8 @@ class ThemeSelectorScreen extends ConsumerWidget {
             groupValue: currentTheme,
             onChanged: (newTheme) => themeSelector.changeAndSave(newTheme!),
             title: Text(
-              describeEnum(themeMode).capitalizeFirst!,
+              describeEnum(themeMode).substring(0, 1).toUpperCase() +
+                  describeEnum(themeMode).substring(1).toLowerCase(),
               style: TextStyle(color: MyColours.white),
             ),
             subtitle: Text(

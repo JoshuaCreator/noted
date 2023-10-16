@@ -1,4 +1,4 @@
-# riverpod_firebase
+# noted
 
 A new Flutter project.
 

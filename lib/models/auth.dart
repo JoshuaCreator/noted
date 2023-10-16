@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/views/screens/verify_email_screen.dart';
-import 'package:riverpod_firebase/views/widgets/b_nav_bar.dart';
-import 'package:riverpod_firebase/views/widgets/loading_indicator.dart';
-import 'package:riverpod_firebase/views/widgets/snack_bar.dart';
+import 'package:noted/views/screens/verify_email_screen.dart';
+import 'package:noted/views/widgets/b_nav_bar.dart';
+import 'package:noted/views/widgets/loading_indicator.dart';
+import 'package:noted/views/widgets/snack_bar.dart';
 
 class Auth {
   final FirebaseAuth _auth = FirebaseAuth.instance;

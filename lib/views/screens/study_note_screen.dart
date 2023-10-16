@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_firebase/config/consts.dart';
-import 'package:riverpod_firebase/models/note_model.dart';
-import 'package:riverpod_firebase/providers/firestore_provider.dart';
-import 'package:riverpod_firebase/views/screens/note_edit_screen.dart';
-import 'package:riverpod_firebase/views/widgets/study_note_tile.dart';
+import 'package:noted/config/consts.dart';
+import 'package:noted/models/note_model.dart';
+import 'package:noted/providers/firestore_provider.dart';
+import 'package:noted/views/screens/note_edit_screen.dart';
+import 'package:noted/views/widgets/study_note_tile.dart';
 
 class StudyNoteScreen extends ConsumerWidget {
   static String path = '/study-note';
